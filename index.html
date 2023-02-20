@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>formulario</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>datos generales</legend>
+
+                <label for="nombre">nombre:</label>
+
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="edad">edad</label>
+
+                <input type="number" name="edad" id="edad">
+
+                <div>
+                    <label for="cf">color de fondo</label>
+                    <input type="color" name="cf" id="color">
+                </div>
+
+                <div>
+                    <label for="clave">contra</label>
+                    <input type="password" name="clave" id="clave">
+                </div>
+
+                <div>
+                    <label for="info">comentarios</label>
+                    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="metodo_pago">metodo_pago</label>
+                    <select name="metodo_pago" id="metodo_pago">
+                        <option value="12">efectivo</option>
+                        <option value="10">debito</option>
+                        <option value="5">credito</option>
+                        <option value="2">bitcoin</option>
+                    </select>
+                </div>
+
+                <br>5
+
+                <div>
+                    <label for="metodo_pago_fav">metodo_pago</label>
+                    <select name="metodo_pago_fav" id="metodo_pago_fav" multiple>
+                        <option value="12">efectivo</option>
+                        <option value="10">debito</option>
+                        <option value="5">credito</option>
+                        <option value="2">bitcoin</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="vehiculo">vehiculo</label>
+                    <select name="vehiculo" id="vehiculo" multiple>
+                        <optgroup label="trocas">
+                            <option value="12">toyota</option>
+                            <option value="10">silverado</option>
+                        </optgroup>
+
+                        <optgroup label="autos compactos">
+                            <option value="5">versa</option>
+                            <option value="2">sentra</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="esatdo_civil">estado_civil</label>
+                    <input type="checkbox" name="estado_civil" id="estado_civil">
+                </div>
+
+                <div>
+                    <label for="foto">foto de empleado</label>
+                    <input type="file" name="foto" id="foto">
+
+                </div>
+
+            </fieldset>
+        </form>
+
+
+
+
+
+
+
+
+        <br>____________________________________________________________________________________________________________
+
+        <h2>tablas html</h2>
+
+        <table border="1px">
+            <tr>
+                <td>actividad</td>
+                <td>lunes</td>
+                <td>martes</td>
+                <td>miercoles</td>
+                <td>jueves</td>
+                <td>viernes</td>
+                <td>sabado</td>
+                <td>domingo</td>
+            </tr>
+            <tr>
+                <td>gym</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1px">
+            <tr>
+                <th>actividad</th>
+                <th>lunes</th>
+                <th>martes</th>
+                <th>miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+                <th>sabado</th>
+                <th>domingo</th>
+            </tr>
+            <tr>
+                <th>gym</th>
+                <th>x</th>
+                <th>x</th>
+                <th>x</th>
+                <th>x</th>
+                <th>x</th>
+                <th>x</th>
+                <th>x</th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>gym</td>
+                <td colspan="5">x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+        </table>
+
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>actividad</th>
+                    <th>lunes</th>
+                    <th>martes</th>
+                    <th>miercoles</th>
+                    <th>jueves</th>
+                    <th>viernes</th>
+                    <th>sabado</th>
+                    <th>domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>aslir con el novio</td>
+                <td colspan="5">xx</td>
+                <td colspan="2">xxx</td>
+            </tr>
+            <tr>
+                <td>practica futlbol</td>
+                <td powspan="2">x</td>
+                <td colspan="5">x</td>
+
+            </tr>
+            <tr>
+                <td>practica futlbol</td>
+                <td colspan="2">xx</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">
+                        elaborado por esta
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
